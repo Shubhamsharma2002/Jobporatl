@@ -1,7 +1,9 @@
+'use client';
+
 import Link from "next/link";
 import { Briefcase } from "lucide-react";
 
-export default async function Navbar({ props }) {
+export default function Navbar() {
     const user_Role = "JOB_SEEKER";
 
     const navLinksConfig = {
@@ -22,16 +24,22 @@ export default async function Navbar({ props }) {
             <h4 className="font-bold text-lg flex items-center gap-2">
                 <Briefcase /> QuickHire
             </h4>
-           { user_Role ? <div className="space-x-3">
-                {navLinksConfig[user_Role].map((e, i) => (
-                    <Link key={i} href={e.href} className="hover:underline">
-                        {e.label}
-                    </Link>
-                ))}
-            </div>
-            :
-            <Link href="/sign-up">Sign up</Link>
-           }
+
+            {user_Role ? (
+                <div className="space-x-4 flex items-center">
+                    {navLinksConfig[user_Role].map((e, i) => (
+                        <Link key={i} href={e.href} className="hover:underline text-sm font-medium">
+                            {e.label}
+                        </Link>
+                    ))}
+                </div>
+            ) : (
+                <Link href="/sign-up" className="text-sm font-medium">
+                    Sign up
+                </Link>
+            )}
         </header>
+
+       
     );
 }
