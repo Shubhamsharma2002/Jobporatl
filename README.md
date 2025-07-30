@@ -1,37 +1,54 @@
 # 🚀 QuickHire – Job Portal Built with Next.js
 
+QuickHire is a modern, fast, and user-friendly job portal designed to connect job seekers with employers seamlessly. Built using **Next.js**, this full-stack platform offers features like job listing, application tracking, role-based dashboards, and secure authentication.
 
-
-QuickHire is a modern, fast, and user-friendly job portal designed to connect job seekers with employers seamlessly. Built using **Next.js**, this full-stack platform offers features like job listing, application tracking, role-based dashboards, and secure authentication....
-
-
+---
 
 ## 🌐 Live Demo
-[Coming Soon](#)
+
+🔗 [Coming Soon](#)
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Frontend:** React + Next.js (App Router or Pages Router)
-- **Backend:** API Routes / Custom Express API (based on architecture)
-- **Database:** MongoDB (with Mongoose or Prisma)
-- **Authentication:** NextAuth.js (Google OAuth + Credentials)
-- **Storage:** Cloudinary or AWS S3 (for resumes, logos)
-- **Styling:** Tailwind CSS
-- **Deployment:** Vercel
+- 🧑‍💻 **Frontend:**  
+  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+- 🛠️ **Backend:**  
+  API Routes / Custom Express API
+
+- 🗄️ **Database:**  
+  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
+  (with Mongoose or Prisma)
+
+- 🔐 **Authentication:**  
+  ![NextAuth.js](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)  
+  (Google OAuth + Email/Password)
+
+- ☁️ **Storage:**  
+  ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+  ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)  
+  (for resumes and logos)
+
+- 🎨 **Styling:**  
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+- 🚀 **Deployment:**  
+  ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
 ## ✨ Features
 
-- 🔍 Job search with filters (location, type, category)
-- 👤 Role-based dashboards (Admin, Recruiter, Job Seeker)
-- ✅ Resume upload & apply feature
-- 📩 Job application tracking system
-- 🔐 Auth with Google and email/password
-- 📄 Admin panel to manage jobs and users
-- 🖼 Company logos and job thumbnails support
+- 🔍 **Job Search with Filters** — Filter by location, job type, and category  
+- 👤 **Role-Based Dashboards** — Separate views for Admin, Recruiter, and Job Seeker  
+- ✅ **Resume Upload & Apply** — Upload resumes and apply in one click  
+- 📩 **Application Tracking** — Track job application status in real time  
+- 🔐 **Authentication** — Google OAuth & secure email/password login  
+- 📄 **Admin Panel** — Manage jobs and users efficiently  
+- 🖼 **Media Support** — Upload company logos and job thumbnails  
 
 ---
 
