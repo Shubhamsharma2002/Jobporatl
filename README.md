@@ -1,8 +1,10 @@
 # 🚀 QuickHire – Job Portal Built with Next.js
 
+
 QuickHire is a modern, fast, and user-friendly job portal designed to connect job seekers with employers seamlessly. Built using **Next.js**, this full-stack platform offers features like job listing, application tracking, role-based dashboards, and secure authentication.
 
 ---
+
 
 ## 🌐 Live Demo
 
