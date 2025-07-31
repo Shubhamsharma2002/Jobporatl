@@ -1,6 +1,6 @@
 "use client";
 
-import { toast } from "@/hooks/use-toast";
+// import { toast } from "@/hooks/use-toast";
 import UserSettingsForm from "../user-settings-form";
 
 
@@ -15,14 +15,17 @@ export default function UserSettingsPage({ user }) {
         });
         const response = await res.json()
         if(!res.ok){
-            toast({
-                title: "Uh oh!",
-                description: response.message
-            })
+            // toast({
+            //     title: "Uh oh!",
+            //     description: response.message
+            // })
+            console.log(error);
+            
         }
-        else return toast({
-            title: "Updated user details"
-        })
+        else return  "updated"
+        // toast({
+        //     title: "Updated user details"
+        // })
     }
     return <UserSettingsForm onSave={onSave} preloadValues={user}/>
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { toast } from "@/hooks/use-toast";
+// import { toast } from "@/hooks/use-toast";
 import CompanySettingsForm from "../company-settings-form";
 
 
@@ -14,14 +14,15 @@ export default function CompanySettingsPage({ company }) {
             body: JSON.stringify(data)
         });
         if(!res.ok){
-            toast({
-                title: "Uh oh!",
-                description: "Couldn't save"
-            })
+            // toast({
+            //     title: "Uh oh!",
+            //     description: "Couldn't save"
+            // })
         }
-        else return toast({
-            title: "Updated company details"
-        })
+        else return "up";
+        // toast({
+        //     title: "Updated company details"
+        // })
     }
     return <CompanySettingsForm onSave={onSave} preloadValues={company}/>
 }
