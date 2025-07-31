@@ -12,6 +12,7 @@ QuickHire is a modern, fast, and user-friendly job portal designed to connect jo
 
 ---
 
+
 ## 🔧 Tech Stack
 
 - 🧑‍💻 **Frontend:**  
