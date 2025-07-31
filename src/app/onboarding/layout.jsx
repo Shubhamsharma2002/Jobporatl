@@ -2,7 +2,7 @@ import { getServerSession } from 'next-auth/next'
 import { redirect } from 'next/navigation'
 import OnboardingPage from './page'
 import { authOptions } from '@/lib/authOptions'
-import { onBoardingCheck } from '../actions/onBoardingCheck'
+import { onBoardingCheck } from '../actions/onboardingCheck'
 
 export default async function OnboardingLayout() {
   const session = await getServerSession(authOptions)
