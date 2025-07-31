@@ -235,7 +235,7 @@ export default function UserSettingsForm({ onSave, preloadValues }) {
               value={keywordInput}
               onChange={handleKeywordInputChange}
               onKeyDown={handleKeywordInputKeyDown}
-              placeholder="Type keywords and press comma to add"
+              placeholder="Type Skills keywords and press comma to add"
             />
           </div>
           
