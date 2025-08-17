@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { File, X } from "lucide-react";
 // import { uploadToBlob } from '@/utils/upload';
 import Image from 'next/image';
+import { uploadToBlob } from '@/lib/upload';
 
 // const userSettingsSchema = z.object({
 //   name: z.string().min(3, "Job title is required"),
@@ -92,8 +93,10 @@ export default function UserSettingsForm({ onSave, preloadValues }) {
   const handleImageUpload = async(e) => {
     const file = e.target.files[0];
     const { url } = await uploadToBlob(file);
-    setValue('image', url)
-    setImageUrl(url);
+    // setValue('image', url)
+    // setImageUrl(url);
+    console.log(url,"resume url");
+    
   }
 
   const handleResumeUpload = async(e) => {
