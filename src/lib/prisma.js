@@ -7,6 +7,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   if (!global.prisma) {
     global.prisma = new PrismaClient();
+      console.log("✅ Connected to MongoDB!");
   }
   prisma = global.prisma;
 }
