@@ -9,6 +9,7 @@ QuickHire is a modern, fast, and user-friendly job portal designed to connect jo
 ## 🌐 Live Demo
 //checking dev
 
+
 🔗 [Coming Soon](#)
 
 ---
